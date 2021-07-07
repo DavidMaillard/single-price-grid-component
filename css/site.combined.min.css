@@ -1,3 +1,11 @@
+/**
+ * @project        frontend-mentor-challenge
+ * @author         David Maillard, <maillard.david23@gmail.com>
+ * @build          Wed, Jul 7, 2021 6:38 AM ET
+ * @release        0ae6f3b2e78d5deba41280eb004541364d8fb45e [master]
+ * @copyright      Copyright (c) 2021, REPLACE_ME
+ *
+ */
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 * {
   box-sizing: border-box; }
@@ -11,6 +19,7 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   font-family: "Karla", sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 72px 32px;
   background: #F2F2F2; }
@@ -27,25 +36,25 @@ body {
 .subtitle {
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.125rem;
+  line-height: 1.16em;
   letter-spacing: -0.225px; }
   @media (max-width: 685px) {
     .subtitle {
-      font-size: 15px;
-      line-height: 20px;
+      font-size: 0.9375rem;
+      line-height: 1.33em;
       letter-spacing: -0.1875px; } }
 
 .text {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625em;
   letter-spacing: -0.2px; }
   @media (max-width: 685px) {
     .text {
-      font-size: 14px;
-      line-height: 26px;
+      font-size: 0.875rem;
+      line-height: 1.85em;
       letter-spacing: -0.175px; } }
 
 .page-wrapper {
@@ -66,15 +75,15 @@ body {
     .page-wrapper .large-section .heading {
       font-style: normal;
       font-weight: bold;
-      font-size: 24px;
-      line-height: 28px;
+      font-size: 1.5rem;
+      line-height: 1.67em;
       letter-spacing: -0.3px;
       color: #2AB3B1;
       margin: 0 0 24px; }
       @media (max-width: 685px) {
         .page-wrapper .large-section .heading {
-          font-size: 20px;
-          line-height: 23px; } }
+          font-size: 1.25rem;
+          line-height: 1.15em; } }
     .page-wrapper .large-section .subtitle {
       color: #C0DF33;
       margin: 0 0 11px; }
@@ -104,15 +113,15 @@ body {
       align-items: center;
       font-style: normal;
       font-weight: bold;
-      font-size: 32px;
-      line-height: 37px;
+      font-size: 2rem;
+      line-height: 1.15625em;
       letter-spacing: -0.4px;
       color: #FFFFFF;
       margin: 0 0 4px; }
       .page-wrapper .mid-section .price-line span {
         font-weight: normal;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 1rem;
+        line-height: 1.625em;
         letter-spacing: -0.2px;
         mix-blend-mode: normal;
         opacity: 0.5;
@@ -126,28 +135,29 @@ body {
       padding: 15px 10px;
       font-style: normal;
       font-weight: bold;
-      font-size: 16px;
-      line-height: 19px;
+      font-size: 1rem;
+      line-height: 1.1875em;
       letter-spacing: -0.2px;
       color: #FFFFFF;
       background: #C0DF33;
       box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
       border-radius: 5px;
       text-decoration: none;
-      transition: background ease-out .2s;
-      will-change: background; }
+      transition: background ease-out .2s; }
       .page-wrapper .mid-section .button:hover {
         background: rgba(192, 223, 51, 0.9); }
     .page-wrapper .mid-section .list {
       font-style: normal;
       font-weight: normal;
-      font-size: 14px;
-      line-height: 20px;
+      font-size: 0.825rem;
+      line-height: 1.43em;
       letter-spacing: -0.175px;
       color: #FFFFFF;
       mix-blend-mode: normal;
       opacity: 0.75;
-      margin: 0; }
+      margin: 0;
+      list-style: none;
+      padding: 0; }
 
 
 

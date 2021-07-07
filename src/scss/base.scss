@@ -8,6 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: $fontKarla;
+  font-size: 16px;
   margin: 0;
   padding: 72px 32px;
   background: #F2F2F2;
@@ -23,13 +24,13 @@ body {
 .subtitle {
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.125rem;
+  line-height: 1.16em;
   letter-spacing: -0.225px;
 
   @media (max-width: 685px) {
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 0.9375rem;
+    line-height: 1.33em;
     letter-spacing: -0.1875px;
   }
 }
@@ -37,13 +38,13 @@ body {
 .text {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625em;
   letter-spacing: -0.2px;
 
   @media (max-width: 685px) {
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 0.875rem;
+    line-height: 1.85em;
     letter-spacing: -0.175px;
   }
 }
@@ -66,15 +67,15 @@ body {
     .heading {
       font-style: normal;
       font-weight: bold;
-      font-size: 24px;
-      line-height: 28px;
+      font-size: 1.5rem;
+      line-height: 1.67em;
       letter-spacing: -0.3px;
       color: #2AB3B1;
       margin: 0 0 24px;
 
       @media (max-width: 685px) {
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 1.25rem;
+        line-height: 1.15em;
       }
     }
 
@@ -120,16 +121,16 @@ body {
       align-items: center;
       font-style: normal;
       font-weight: bold;
-      font-size: 32px;
-      line-height: 37px;
+      font-size: 2rem;
+      line-height: 1.15625em;
       letter-spacing: -0.4px;
       color: #FFFFFF;
       margin: 0 0 4px;
 
       span {
         font-weight: normal;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 1rem;
+        line-height: 1.625em;
         letter-spacing: -0.2px;
         mix-blend-mode: normal;
         opacity: 0.5;
@@ -148,8 +149,8 @@ body {
       padding: 15px 10px;
       font-style: normal;
       font-weight: bold;
-      font-size: 16px;
-      line-height: 19px;
+      font-size: 1rem;
+      line-height: 1.1875em;
       letter-spacing: -0.2px;
       color: #FFFFFF;
       background: #C0DF33;
@@ -157,7 +158,6 @@ body {
       border-radius: 5px;
       text-decoration: none;
       transition: background ease-out .2s;
-      will-change: background;
 
       &:hover {
         background: rgba(#C0DF33, .9);
@@ -167,13 +167,15 @@ body {
     .list {
       font-style: normal;
       font-weight: normal;
-      font-size: 14px;
-      line-height: 20px;
+      font-size: 0.825rem;
+      line-height: 1.43em;
       letter-spacing: -0.175px;
       color: #FFFFFF;
       mix-blend-mode: normal;
       opacity: 0.75;
       margin: 0;
+      list-style: none;
+      padding: 0;
     }
   }
 }
